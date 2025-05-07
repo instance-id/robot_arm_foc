@@ -3,21 +3,15 @@
 A Field-Oriented Control (FOC) motor control system for ESP32 and STM32-based motor controllers, with CAN bus communication for coordinated motion control.
 
 <div style="width: 40%; height: 60%">
-
-![Device Diagram](device_diagram.png)
-
+  <img src="device_diagram.png" width=40% height=40%>
 </div>
 
 <div style="width: 40%; height: 60%">
-
-![](./media/arm_01.jpg)
-
+  <img src="./media/arm_01.jpg" width=40% height=40%>
 </div>
 
 <div style="width: 40%; height: 60%">
-
-![](./media/planetary_gearboxes.jpg)
-
+  <img src="./media/planetary_gearboxes.jpg" width=40% height=40%>
 </div>
 
 
