@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build All",
+        "type": "shell",
+        "linux": {
+          "command": "./justfile build-all"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        }
+      },
+      {
+        "label": "Upload All",
+        "type": "shell",
+        "linux": {
+          "command": "./justfile upload-all"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        }
+      }
+    ]
+  }
